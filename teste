@@ -1,0 +1,13 @@
+int main ()
+{
+	
+int totCompra, c=0, a=0;
+while(c<10) {
+	printf("Informe o preco:");
+	scanf("%i", &totCompra);
+	c=c+1;
+	a = totCompra + a;
+}
+printf("O total %i", a);
+}
+  
